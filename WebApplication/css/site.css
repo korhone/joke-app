@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.content {
+    
+    text-align: center; /* Keskitt‰‰ tekstin */
+    padding: 20px;
+    justify-content: center; /* Keskit‰ vaakasuunnassa */
+    align-items: center; /* Keskit‰ pystysuunnassa */
+}
+
+.otsake {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0;
+}
+.footer {
+    position: fixed; /* Kiinnitt‰‰ alatunnisteen sivun pohjaan */
+    bottom: 0; /* Sijoittaa alatunnisteen alareunaan */
+    width: 100%; /* T‰ysi leveys */
+    background-color: #f8f9fa; /* Taustav‰ri */
+    padding: 10px 0; /* Tilaa yl‰- ja alapuolelle */
+    text-align: center; /* Tekstin keskitys */
+    font-size: 14px; /* Tekstin koko */
+    color: #6c757d; /* Tekstin v‰ri */
+}
