@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Joke App";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joke App</title>
+</head>
+<body>
+    
+    <div class="content">
+        
+        <p>Type: @Model.type</p>
+        <p>@Model.setup</p>
+        <p>@Model.punchline</p>
+   
+
+        <form action="@Url.Action()" method="post">
+            <button type="submit">Get a Joke</button>
+        </form>
+    </div>
+</body>
+</html>
